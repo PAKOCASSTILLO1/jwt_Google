@@ -1,0 +1,27 @@
+
+POST http://localhost:9002/authenticate HTTP/1.1
+content-type: application/json
+
+{
+    "username": "Pako Casstillo",
+    "password": "Pako Casstillo"
+}
+
+###
+
+POST http://localhost:9002/authenticate HTTP/1.1
+content-type: application/json
+
+{
+    "username": "Pako Casstillo",
+    "password": "Pako Casstillo"
+}
+
+###
+
+GET http://localhost:9002/hello HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJQYWtvIENhc3N0aWxsbyIsImV4cCI6MTU3MzY0NTkzMSwiaWF0IjoxNTczNjI3OTMxfQ.k3q4HVON7kMVQINjt9Lk72NBDYiO37xRZaZq8PzGNc87AMby3oEGLd2PT8y5FZd11JDBra8SJISY62YyYjTO6w
+
+###
+
+GET http://localhost:9002/public HTTP/1.1
